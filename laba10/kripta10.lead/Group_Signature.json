@@ -1,0 +1,30 @@
+{
+    "CMSVersion": 1,
+    "DigestAlgorithmIdentifiers": "GOST512",
+    "EncapsulatedContentInfo": {
+        "ContentType": "text",
+        "OCTET STRING OPTIONAL": "011100110110010101100110011110010110011101110101011011010110100001101001"
+    },
+    "CertificateSet OPTIONAL": {
+        "L": 108193401571588305646613575907,
+        "alfa": 29450251990149725293489165173,
+        "p": 515809596851073660175719067297
+    },
+    "RevocationInfoChoises OPTIONAL": "NULL",
+    "SignerInfos": {
+        "CMSVersion": 1,
+        "SignerIdentifier": "Kostyrkin Nikita",
+        "DigestAlgorithmIdentifier": "GOST512",
+        "SignedAttributes OPTIONAL": "NULL",
+        "SignatureAlgorithmIdentifier": "RSAdsi",
+        "SignatureValue": {
+            "U": 22396139330459016636114483552497781420970343616693060066612,
+            "E": 10411604375321526334628988742727068298410712719801894015771879844668322533103621686487432420399545065099032733455363034541035004340568892602062568070173706,
+            "S": 2461306602483299594967294
+        },
+        "UnsignedAttributes OPTIONAL": {
+            "OBJECT IDENTIFIER": "NULL",
+            "SET OF AttributeValue": "NULL"
+        }
+    }
+}

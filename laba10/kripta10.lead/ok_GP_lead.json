@@ -1,0 +1,10 @@
+{
+    "SubjectPublicKeyInfo": {
+        "publicExponent": 9,
+        "N": 743893279568256251844823516441162697551083842235083784765403,
+        "L": 188959544137853372571866895130
+    },
+    "PKCS10CertRequest": "NULL",
+    "Certificate": "NULL",
+    "PKCS7CertChain-PKCS": "NULL"
+}

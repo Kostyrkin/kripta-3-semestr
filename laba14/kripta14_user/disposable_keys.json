@@ -1,0 +1,5 @@
+{
+    "NumberOfIterations": 3,
+    "HashMethod": "GOST512",
+    "SecretPassword": "LenoK230272?"
+}

@@ -143,7 +143,7 @@ class GP:
             af = self.PMF(random.randint(3, n), 100)
             if pow(int(af), 2, int(p)) != 1 and pow(int(af), int((p - 1) / 2), int(p)) != 1 and int(af) < int(p):
                 break
-        k = int((p - 1) / q)
+        k = (p - 1) // q
         af = pow(af, k, p)
         self.save_object("p", p)
         self.save_object("q", q)

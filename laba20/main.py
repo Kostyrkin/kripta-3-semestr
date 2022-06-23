@@ -47,9 +47,9 @@ def gen_key():
     #print("s:", s)
     #проверка
     S_p = 0
-    for i in range(n):
+    for i in range(t+1):
         mp = 1
-        for j in range(n):
+        for j in range(t+1):
             if j != i:
                 c_n_obr = EA(F, pow(r[j] - r[i], 1, F))
                 mp = mp*(r[j]*c_n_obr)
